@@ -1,26 +1,31 @@
 const CONFIG = {
-    mainQuestion: "Will you be my Valentine?",
-    subQuestion: "Please say yes ",
+    mainQuestion: "will you be my valentine?",
+    subQuestion: "please say yes ",
     yesButton: "YES",
     noButton: "NO",
-    noEscapeTexts: ["Eits, ga bisa😝", "Hehe, coba lagi 😜", "Yaudah deh, aku anggap YES ya! 💕"],
-    confirmTitle: "YEAAAY! Kamu Beneran Mau 💗",
-    confirmText: "Mulai dari sekarang kamu resmi jadi…",
-    badgeText: "My Valentine",
-    nextButton: "Lanjut ",
-    repeatButton: "Ulangi pertanyaan",
-    flowerTitle: "Ini kado spesial buat kamu ",
-    takeBouquetButton: "Terima hadiahnya ",
-    bouquetMessage: "Yeay! Udah jadi milik kamu 💕",
-    nextFlowerButton: "Next ",
-    collageTitle: "My Beautiful You",
-    collageSubtitle: "Sejak kamu hadir, hal sederhana pun terasa istimewa. Happy Valentine, my favorite person. 💕",
-    nextCollageButton: "Satu halaman lagi… ",
-    finalTitle: "Happy Valentine, My Love 💞",
-    finalMessage: `Makasih ya sudah hadir dan bikin hariku selalu terasa cukup. Kamu adalah alasan kenapa senyum itu mudah muncul. Semoga hari harimu selalu penuh kehangatan dan kebahagiaan. Aku selalu ada untukmu. Happy Valentine 💕`,
-    restartButton: "Restart ",
-    copyButton: "Copy Message ",
-    copySuccess: "Pesan berhasil dicopy! "
+    noEscapeTexts: ["eits, gaaa bisa ayuuu😝", "hehe, coba lagi yaaa 😜", "yaudaaa de,aku anggap YES yaaa! 💕"],
+    confirmTitle: "YEAAAY! kamu beneran mau 💗",
+    confirmText: "mulai dari sekaranggg kamu resmi jadi…",
+    badgeText: "MY VALENTINE",
+    nextButton: "lanjut ",
+    repeatButton: "ulangi pertanyaan",
+    flowerTitle: "ini kadooo spesial buat kamu my worlddd ayu dwi noor p. ",
+    takeBouquetButton: "terima hadiahnyaaa yaaa ",
+    bouquetMessage: "yeayyy! sudaaa jadi milikkk kamu 💕",
+    nextFlowerButton: "NEXT ",
+    collageTitle: "my beautiful u",
+    collageSubtitle: " aku ketikkk ini karenaaa aku pengen kamu tau seberapaaa besar artinyaaa kamu buat aku. di hari kasi sayanggg ini, aku cumaaa mau bilanggg satu halll yanggg sebenernyaaa udaaa seringgg aku rasain tapi mungkin jarang aku ucapin se-detail ini. aku bener-bener, sungguh-sungguh, sayanggg and banget banget sama kamu ayuuu. i love u, endlesslyyy. rasanyaaa kata "sayang" atau "cinta" ajaaa kadanggg nggak cukup buat gambarin seberapaaaa penuhnyaaa hati aku karenaaaaa kamu.
+thank u for cominggg into myyy life and making it so much brighter. makasi yaaa sudaaa selalu adaaa, sudaaa jadi alasan aku buat senyum setiap hari, and sudaaa jadi oranggg yanggg palinggg ngertiin aku, bahkan di saat aku susaaaa ngertiin diri aku sendiri. you are not just my partner, but you are my best frienddd, my safe placeee, and my home. setiap detik yang aku abisin sama kamu itu berhargaaaaa banget buat aku."
+    nextCollageButton: "satu halaman lagi… ",
+    finalTitle: "HAPPY VALENTINE, MY LOVE 💞",
+    finalMessage: `  aku cinta kamu. cintaaaa samaaaa semua halll tentanggg kamu, dari halll yanggg palinggg sederhanaaa sampai halll yanggg palinggg rumit sekalipun. i love the way you look at me, i love your voice, i love your kindness. kamu itu anugerah terindaaa yanggg tuhan kasih buat aku. pleaseee know that my heart belongs to you, completelyyyyyy. 
+
+enggaaa adaaa orang lain yanggg bisa bikin aku ngerasaaa se-spesial ini selain kamu. semogaaa kitaaa bisaaa lewatin valentine tahun ini, tahun depan, anddd tahun-tahun berikutnyaaa barenggg-barenggg terus yaaa. i promise to love u, support you, and stand by your sideee no matter what happensss.
+
+jangan pernaaa bosan sama aku yaaa? karena aku nggaaa akan pernaaa berhenti buat jatuh cintaaa samaaa kamu setiapppp harinyaaa. sekali lagi, happy valentine’s day, my love. you are my everything. i love you to the moon and back, forever and always. `,
+    restartButton: "restart ",
+    copyButton: "copy message ",
+    copySuccess: "pesan berhasil dicopyyy! "
 };
 
 const state = { currentPage: 1, hasClickedYes: false, noClickCount: 0, bouquetTaken: false, musicPlaying: false, photos: [null, null, null, null] };
@@ -367,3 +372,4 @@ document.addEventListener('DOMContentLoaded', () => {
     new ParticleSystem();
     initMouseTrail();
 });
+
